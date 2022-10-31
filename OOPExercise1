@@ -1,0 +1,37 @@
+public class Bicycle {
+
+   private String ownerName;
+
+   private String tagNo;
+
+public Bicycle () {
+
+   ownerName = "Unknown";
+
+   tagNo = "XXX";
+
+public Bicycle (String ownerName,String tagNo) {
+
+       this.ownerName = ownerName;
+
+       this.tagNo = tagNo;
+
+}
+
+ public String getOwnerName () {
+
+       return ownerName;
+
+}
+
+ public void setOwnerName (String ownerName) {
+
+    this.OwnerName = ownerName;
+
+}
+
+public String gettagNo () {
+
+return tagNo;
+
+}
